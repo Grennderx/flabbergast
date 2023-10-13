@@ -16,6 +16,7 @@ using namespace std;
 bool compare_col(const vector<double>& v1, const vector<double>& v2) {
 	return v1[0] > v2[0];
 }
+// leave the commentary
 void vectorSort(vector<vector<double>>A) {
 	int n = A.size();
 	int m = A[0].size();
